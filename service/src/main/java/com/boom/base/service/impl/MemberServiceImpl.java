@@ -1,6 +1,6 @@
 package com.boom.base.service.impl;
 
-import com.boom.base.domain.Member;
+import com.boom.base.repository.domain.Member;
 import com.boom.base.repository.mapper.MemberMapper;
 import com.boom.base.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;

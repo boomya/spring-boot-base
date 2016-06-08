@@ -1,4 +1,4 @@
-package com.boom.base.domain;
+package com.boom.base.repository.domain;
 
 public class Member {
 

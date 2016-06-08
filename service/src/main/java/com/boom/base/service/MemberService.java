@@ -1,6 +1,6 @@
 package com.boom.base.service;
 
-import com.boom.base.domain.Member;
+import com.boom.base.repository.domain.Member;
 
 public interface MemberService {
 

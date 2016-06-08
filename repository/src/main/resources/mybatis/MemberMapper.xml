@@ -3,7 +3,7 @@
 
 
 <mapper namespace="com.boom.base.repository.mapper.MemberMapper">
-    <select id="findMemberById" resultType="com.boom.base.domain.Member">
+    <select id="findMemberById" resultType="com.boom.base.repository.domain.Member">
         SELECT * FROM tb_junit_demo WHERE id=#{id} limit 0,1;
     </select>
 

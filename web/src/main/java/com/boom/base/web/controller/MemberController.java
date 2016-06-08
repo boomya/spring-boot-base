@@ -1,6 +1,6 @@
 package com.boom.base.web.controller;
 
-import com.boom.base.domain.Member;
+import com.boom.base.repository.domain.Member;
 import com.boom.base.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

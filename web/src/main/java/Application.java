@@ -15,7 +15,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @ServletComponentScan
 @EnableScheduling
 public class Application {
-
     public static void main(String[] args) {
         SpringApplication app = new SpringApplication(Application.class);
         ApplicationListener[] applicationListeners = new ApplicationListener[] {

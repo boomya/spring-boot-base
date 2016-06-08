@@ -1,6 +1,6 @@
 package com.boom.base.repository.mapper;
 
-import com.boom.base.domain.Member;
+import com.boom.base.repository.domain.Member;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Component;
 
