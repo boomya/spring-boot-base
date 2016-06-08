@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.boom.base.repository.mapper.MemberMapper">
+    <select id="findMemberById" resultType="com.boom.base.domain.Member">
+        SELECT * FROM tb_junit_demo WHERE id=#{id} limit 0,1;
+    </select>
+
+</mapper>
