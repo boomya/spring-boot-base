@@ -18,7 +18,7 @@ import java.sql.SQLException;
 @PropertySource("classpath:jdbc.properties")
 public class MyBatisConfig {
 
-    @Value("${my.test}")
+    @Value("${repository.my.test}")
     private String myTest;
     @Value("${spring.datasource.jdbc.url}")
     private String jdbcUrl;

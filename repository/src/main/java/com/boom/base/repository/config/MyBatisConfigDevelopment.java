@@ -23,7 +23,7 @@ import static org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType.
 @PropertySource("classpath:jdbc-development.properties")
 public class MyBatisConfigDevelopment {
 
-    @Value("${my.test}")
+    @Value("${repository.my.test}")
     private String myTest;
     @Value("${spring.datasource.jdbc.url}")
     private String jdbcUrl;
