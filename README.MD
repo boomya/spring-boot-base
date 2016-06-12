@@ -2,7 +2,7 @@
 #### 使用说明
 1. clone代码
 ```
-git clone https://g.hz.netease.com/hzjiangshan/spring-boot-base.git
+git clone https://github.com/boomya/spring-boot-base.git
 ```
 1. 替换repository下jdbc.properties中数据库相关的配置
 ```
