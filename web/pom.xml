@@ -14,11 +14,6 @@
     <packaging>jar</packaging>
     <dependencies>
         <dependency>
-            <groupId>com.boom.base</groupId>
-            <artifactId>base-service</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <exclusions>
@@ -36,6 +31,17 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.10</version>
+        </dependency>
+        <!-- 调用dubbo接口, 将下面的依赖注释掉 -->
+        <!--<dependency>-->
+        <!--<groupId>com.boom.base</groupId>-->
+        <!--<artifactId>base-service</artifactId>-->
+        <!--<version>1.0-SNAPSHOT</version>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>com.boom.base</groupId>
+            <artifactId>base-client</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

@@ -1,8 +1,6 @@
 package com.boom.base.web.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.boom.base.service.MemberService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -14,14 +12,14 @@ import java.util.Map;
 @RequestMapping("/param")
 public class ParamController {
 
-    @Autowired
-    private MemberService memberService;
+//    @Autowired
+//    private MemberService memberService;
 
     //http://localhost:9090/boom/param/single/1?name=test
     @RequestMapping(value = "/single/{age}", method = RequestMethod.GET)
     public String helloWorld(@PathVariable int age, @RequestParam(value = "name", required = false) String name) {
         try {
-            return memberService.findMemberByUid("1").getName() + " " + name + " " + age;
+//            return memberService.findMemberByUid("1").getName() + " " + name + " " + age;
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -14,6 +14,8 @@
         <version>1.3.3.RELEASE</version>
     </parent>
     <modules>
+        <module>share</module>
+        <module>client</module>
         <module>repository</module>
         <module>service</module>
         <module>web</module>
@@ -47,19 +49,6 @@
             <!--<artifactId>mysql-connector-java</artifactId>-->
         <!--</dependency>-->
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>1.3.3.RELEASE</version>
-                <!--<configuration>-->
-                <!--<classifier>exec</classifier>-->
-                <!--</configuration>-->
-            </plugin>
-        </plugins>
-    </build>
 
     <distributionManagement>
         <repository>

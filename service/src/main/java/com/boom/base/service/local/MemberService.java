@@ -1,4 +1,4 @@
-package com.boom.base.service;
+package com.boom.base.service.local;
 
 import com.boom.base.repository.domain.Member;
 
