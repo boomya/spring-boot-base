@@ -1,4 +1,5 @@
 ### 基于spring boot的web类型项目模板
+#### spring boot + mybatis + dubbo
 #### 使用说明
 1. clone代码
 ```
