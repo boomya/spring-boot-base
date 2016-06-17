@@ -1,7 +1,9 @@
 package com.boom.base.web.interceptor;
 
+import com.boom.base.web.controller.BaseController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -18,7 +20,8 @@ public class CustomInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
             throws Exception {
-        logger.info("=== CustomInterceptor--preHandle ==");
+        logger.info("=== CustomInterceptor--preHandle == {}", ((BaseController)((HandlerMethod) handler).getBean()).isCheckLogin());
+
         return true;// 只有返回true才会继续向下执行，返回false取消当前请求
     }
 

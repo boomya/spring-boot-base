@@ -1,6 +1,8 @@
 #OS X
 .DS_Store
 
+log/
+
 # Eclipse project files
 .classpath
 .project
@@ -13,7 +15,7 @@ proguard/
 *.ipr
 *.iws
 .idea/
-**/*.iml
+*/*.iml
 
 #svn
 .svn/

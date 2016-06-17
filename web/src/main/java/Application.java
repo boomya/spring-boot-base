@@ -11,7 +11,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 //@Import(MyBatisMapperScannerConfig.class)
-@ComponentScan("com.boom.base")
+@ComponentScan("com.boom.base.web")
 @ServletComponentScan
 @EnableScheduling
 public class Application {
